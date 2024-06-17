@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Biography from './components/Biography';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
@@ -14,13 +14,13 @@ const App: React.FC = () => {
     <Router>
       <div className="App">
         <Header />
-        <Switch>
+        <Routes>
           <Route path="/" element={<Biography />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/upload" element={<Upload />} />
-        </Switch>
+        </Routes>
         <Footer />
       </div>
     </Router>
