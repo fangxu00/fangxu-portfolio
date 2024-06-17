@@ -7,12 +7,16 @@ Welcome to Fang Xu's portfolio website. This project showcases my skills, experi
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 
+
+## Features
+
 - Biography section
 - Interests and resume sections
 - Skills and projects sections
 - Gallery with hover effects
 - Contact form with email validation and submission
 - Downloadable resume in PDF format
+
 
 ## Technologies Used
 
