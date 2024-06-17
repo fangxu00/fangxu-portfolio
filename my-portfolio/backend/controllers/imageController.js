@@ -33,7 +33,7 @@ const getImages = (req, res) => {
         }
         const fileInfos = files.map((file) => ({
             name: file,
-            url: `http://localhost:5001/uploads/${file}` // Ensure the URL is correct
+            url: `https://my-portfolio-backend-55efc7b8f88d.herokuapp.com/uploads/${file}` // Ensure the URL is correct
         }));
         res.json(fileInfos);
     });
